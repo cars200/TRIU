@@ -1,0 +1,29 @@
+###
+
+POST http://localhost:3000/api/users HTTP/1.1
+content_Type: application/json
+
+{
+    "nombre": "Leydi Valentina Parra Ruiz",
+    "edad": 17,
+    "genero": "F"
+}
+
+###
+GET http://localhost:3000/api/user/6728164aa9db85391638f216 HTTP/1.1
+
+###
+GET http://localhost:3000/api/user/6728164aa9db85391638f216 HTTP/1.1
+
+###
+GET http://localhost:3000/api/user/6728164aa9db85391638f216 HTTP/1.1
+content_Type: application/json
+
+{
+    "nombre": "Valentina",
+    "edad": 18,
+    "genero": "F"
+}
+
+###
+DELETE http://localhost:3000/api/users/6728164aa9db85391638f216 HTTP/1.1
